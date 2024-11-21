@@ -121,9 +121,6 @@ const SideBar = ({ user, sidebarList }: { user?: User; sidebarList: any }) => {
             </ReactTooltip>
           </li>
         </ul>
-        <DevButton variant="v1" className="gap-2 mt-2 text-sm md:!hidden !flex">
-          Try Gemini Advanced
-        </DevButton>
       </div>
     </section>
   );
