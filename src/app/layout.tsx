@@ -2,27 +2,28 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProviders } from "@/utils/theme-providers";
+
 const OutfitFont = Outfit({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-
 export const metadata: Metadata = {
-  title: "MindBot",
-  description: "A Gemini-inspired AI assistant built with Next.js",
-  keywords: ["AI", "assistant", "Gemini", "clone", "Next.js"],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name or Company",
-  publisher: "Your Name or Company",
+  title: "MindBot AI",
+  description: "MindBot: Your ultimate AI assistant powered by Next.js.",
+  keywords: ["AI", "MindBot", "assistant", "Next.js", "intelligent assistant"],
+  authors: [{ name: "MindBot Team" }],
+  creator: "MindBot Team",
+  publisher: "MindBot AI",
   openGraph: {
-    title: "Dev Gemini Clone",
-    description: "An advanced GEMINI Clone built with Next.js, featuring enhanced functionalities and faster response times.",
-    url: "https://dev-gemini-clone.vercel.app",
-    siteName: "Dev Gemini Clone",
+    title: "MindBot AI Assistant",
+    description:
+      "Discover MindBot, the ultimate AI assistant built with Next.js, featuring state-of-the-art functionalities and intelligent responses.",
+    url: "https://mindbot.vercel.app",
+    siteName: "MindBot AI",
     images: [
       {
-        url: "/assets/gemini-logo.svg",
+        url: "/assets/mindbot-logo.svg",
         width: 1200,
         height: 630,
       },
@@ -32,10 +33,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dev Gemini Clone",
-    description: "Experience the power of AI with our Gemini-inspired assistant",
-    creator: "@yourTwitterHandle",
-    images: ["/assets/gemini-banner.svg"],
+    title: "MindBot AI",
+    description: "MindBot: Redefining AI-powered assistance for everyone.",
+    creator: "@MindBotAI",
+    images: ["/assets/mindbot-banner.svg"],
   },
   viewport: {
     width: "device-width",
